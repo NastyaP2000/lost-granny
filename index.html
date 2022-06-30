@@ -180,10 +180,6 @@
 
   <!-- map -->
   <div id="map" style="display:none;">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.592835370055!2d126.96226443226719!3d37.52552634206545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb66b720a6871a40a!2sHYBE%20HQ!5e1!3m2!1sru!2sru!4v1655988424279!5m2!1sru!2sru"
-      width="2000" height="1200" style="border:0;" allowfullscreen="" loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
   <!-- Button -->
@@ -239,6 +235,9 @@
       }
 
       else if (element.target.innerText == "Мой Qr code") {
+
+        let qrCodeData = "Аллергия на анальгин."
+
         logToConsole(element.target.innerText)
         let wow = document.getElementById('wow')
         wow.style.display = 'none'
@@ -385,6 +384,7 @@
       }
 
       else if (element.target.innerText == "Мое местоположение") {
+
         let wow = document.getElementById('wow')
         wow.style.display = 'none'
 
@@ -403,13 +403,11 @@
         let button1 = document.getElementById('button1')
         button1.style.display = ''
 
-
-
       }
     }
 
     function logToConsole(buttonName) {
-      console.log('User pressed ' + buttonName);  
+      console.log('User pressed ' + buttonName);
     }
 
   </script>
