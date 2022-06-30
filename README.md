@@ -1,2 +1,2 @@
 # lost-granny
-[Preview](https://lost-granny.cs-develop.ru/)
+[ссылка](https://lost-granny.cs-develop.ru/)
