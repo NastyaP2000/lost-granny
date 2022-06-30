@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Yourgranny</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Главная страница</a>
+          </li>
+          <a class="nav-link" href="#">Мой Qr code</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Оставить свой отзыв</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Мое местоположение</a>
+          </li>
+          <li class="nav-item dropdown">
+          <li class="nav-item">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Аккаунт</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Мои данные</a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Зарегестрироваться</a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Выйти из аккаунта</a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Поддержите нас</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="поиск">
+          <button class="btn btn-outline-success" type="submit">Найти</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Content -->
+  <div>
+    <div>
+
+      <!-- Form -->
+      <div id="form" class="border border-3 border-primary p-3 m-3 rounded-3 " style="display: none;">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="button" class="btn btn-primary">Send</button>
+        <button type="button" class="btn btn-secondary">Save as draft</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Mark as important</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Delete</button>
+
+        <button type="button" class="btn btn-link">Link</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carousel2 -->
+  <div id="wow" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="C:\Users\nasta\Desktop\сайт\image1.jpeg" class="d-block w-100" alt="image1">
+      </div>
+      <div class="carousel-item">
+        <img src="C:\Users\nasta\Desktop\сайт\image2.jpeg" class="d-block w-100" alt="image2">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- table -->
+  <div class="table" id="ama" style="display: none;">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="row">ФИО:</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="col">Иванова Анна Ивановна</th>
+        </tr>
+      </tbody>
+      <th scope="row">Дата рождения:</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="col">01.01.1956</th>
+        </tr>
+      </tbody>
+      <th scope="row">Медицинские противопоказания:</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="col">Имеется аллергия на пеницилин</th>
+        </tr>
+      </tbody>
+      <th scope="row">Диагноз:</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="col">-</th>
+        </tr>
+        </tr>
+        <th scope="row">Домашний адрес:</th>
+        </tr>
+        </thead>
+      <tbody>
+        <tr>
+          <th scope="col">г.Подольск ул.Ленина дом 32а</th>
+        </tr>
+      </tbody>
+      <th scope="row">Контакты родственника:</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="col">Игнатьева Марина Ивановна +79111111111 </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- QR -->
+  <html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>сайт</title>
+  </head>
+
+  <body>
+    <div id="star" style="display:none;">
+      <img src="C:\Users\nasta\Desktop\сайт\qr-code.png" width="500" height="500" padding-right:500 alt="qr-code">
+    </div>
+  </body>
+
+  </html>
+
+  <!-- map -->
+  <div id="map" style="display:none;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.592835370055!2d126.96226443226719!3d37.52552634206545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb66b720a6871a40a!2sHYBE%20HQ!5e1!3m2!1sru!2sru!4v1655988424279!5m2!1sru!2sru"
+      width="2000" height="1200" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <!-- Button -->
+  <div id="button" style="display:none;" class="d-grid gap-2 col-6 mx-auto">
+    <button class="btn btn-primary" type="button">Подсказка</button>
+  </div>
+
+  <!-- Button1 -->
+  <div id="button1" style="display:none;" class="d-grid gap-2 col-6 mx-auto">
+    <button class="btn btn-primary" type="button">Назад</button>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2022 Company, Inc</p>
+  </footer>
+  <script>
+    console.log('Привет');
+
+    document.onclick = (element) => {
+      console.log(element);
+      if (element.target.innerText == "Оставить свой отзыв") {
+        let wow = document.getElementById('wow')
+        wow.style.display = 'none'
+
+        let form = document.getElementById('form')
+        form.style.display = ''
+
+        let star = document.getElementById('star')
+        star.style.display = 'none'
+
+        let ama = document.getElementById('ama')
+        ama.style.display = 'none'
+
+        let map = document.getElementById('map')
+        map.style.display = 'none'
+
+        let button = document.getElementById('button')
+        button.style.display = 'none'
+
+        let button1 = document.getElementById('button1')
+        button1.style.display = ''
+      }
+
+      else if (element.target.innerText == "Мой Qr code") {
+        let wow = document.getElementById('wow')
+        wow.style.display = 'none'
+
+        let form = document.getElementById('form')
+        form.style.display = ' none '
+
+        let ama = document.getElementById('ama')
+        ama.style.display = 'none'
+
+        let star = document.getElementById('star')
+        star.style.display = ''
+
+        let map = document.getElementById('map')
+        map.style.display = 'none'
+
+        let button = document.getElementById('button')
+        button.style.display = 'none'
+
+        let button1 = document.getElementById('button1')
+        button1.style.display = ''
+      }
+
+      else if (element.target.innerText == "Подсказка") {
+        let wow = document.getElementById('wow')
+        wow.style.display = 'none'
+
+        let form = document.getElementById('form')
+        form.style.display = ' none '
+
+        let ama = document.getElementById('ama')
+        ama.style.display = ''
+
+        let star = document.getElementById('star')
+        star.style.display = 'none'
+
+        let map = document.getElementById('map')
+        map.style.display = 'none'
+
+        let button = document.getElementById('button')
+        button.style.display = 'none'
+
+        let button1 = document.getElementById('button1')
+        button1.style.display = ''
+
+      }
+
+      else if (element.target.innerText == "Home") {
+        let wow = document.getElementById('wow')
+        wow.style.display = ''
+
+        let form = document.getElementById('form')
+        form.style.display = ' none '
+
+        let ama = document.getElementById('ama')
+        ama.style.display = 'none'
+
+        let star = document.getElementById('star')
+        star.style.display = 'none'
+
+        let map = document.getElementById('map')
+        map.style.display = 'none'
+
+        let button = document.getElementById('button')
+        button.style.display = ''
+
+        let button1 = document.getElementById('button1')
+        button1.style.display = ''
+      }
+
+      else if (element.target.innerText == "Yourgranny") {
+        let wow = document.getElementById('wow')
+        wow.style.display = ''
+
+        let form = document.getElementById('form')
+        form.style.display = ' none '
+
+        let ama = document.getElementById('ama')
+        ama.style.display = 'none'
+
+        let star = document.getElementById('star')
+        star.style.display = 'none'
+
+        let map = document.getElementById('map')
+        map.style.display = 'none'
+
+        let button = document.getElementById('button')
+        button.style.display = ''
+
+        let button1 = document.getElementById('button1')
+        button1.style.display = ''
+      }
+
+      else if (element.target.innerText == "Назад") {
+        let wow = document.getElementById('wow')
+        wow.style.display = ''
+
+        let form = document.getElementById('form')
+        form.style.display = ' none '
+
+        let ama = document.getElementById('ama')
+        ama.style.display = 'none'
+
+        let star = document.getElementById('star')
+        star.style.display = 'none'
+
+        let map = document.getElementById('map')
+        map.style.display = 'none'
+
+        let button = document.getElementById('button')
+        button.style.display = ''
+
+        let button1 = document.getElementById('button1')
+        button1.style.display = 'none'
+      }
+
+      else if (element.target.innerText == "Главная страница") {
+        let wow = document.getElementById('wow')
+        wow.style.display = ''
+
+        let form = document.getElementById('form')
+        form.style.display = ' none '
+
+        let ama = document.getElementById('ama')
+        ama.style.display = 'none'
+
+        let star = document.getElementById('star')
+        star.style.display = 'none'
+
+        let map = document.getElementById('map')
+        map.style.display = 'none'
+
+        let button = document.getElementById('button')
+        button.style.display = ''
+
+        let button1 = document.getElementById('button1')
+        button1.style.display = ''
+
+      }
+
+
+      else if (element.target.innerText == "Мои данные") {
+        let wow = document.getElementById('wow')
+        wow.style.display = 'none'
+
+        let form = document.getElementById('form')
+        form.style.display = 'none'
+
+        let ama = document.getElementById('ama')
+        ama.style.display = ''
+
+        let star = document.getElementById('star')
+        star.style.display = 'none'
+
+        let map = document.getElementById('map')
+        map.style.display = 'none'
+
+        let button = document.getElementById('button')
+        button.style.display = 'none'
+
+        let button1 = document.getElementById('button1')
+        button1.style.display = ''
+
+      }
+
+      else if (element.target.innerText == "Мое местоположение") {
+        let wow = document.getElementById('wow')
+        wow.style.display = 'none'
+
+        let form = document.getElementById('form')
+        form.style.display = 'none'
+
+        let ama = document.getElementById('ama')
+        ama.style.display = 'none'
+
+        let star = document.getElementById('star')
+        star.style.display = 'none'
+
+        let map = document.getElementById('map')
+        map.style.display = ''
+
+        let button = document.getElementById('button')
+        button.style.display = 'none'
+
+        let button1 = document.getElementById('button1')
+        button1.style.display = ''
+
+
+
+      }
+
+
+
+    }
+
+  </script>
+
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
